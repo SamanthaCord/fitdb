@@ -1,3 +1,36 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+body {
+  background-color: #232121;
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
+}
+
+.workoutButton {
+  margin-top: 20%;
+  width: 500px;
+  height: 150px;
+  background-color: white;
+  color: #ff1d1d;
+  font-size: 50px;
+  border: 12px #ff1d1d solid;
+}
+
+.workoutButton:hover {
+  background-color: #ff1d1d;
+  border: 12px white solid;
+  color: white;
+}
+
+a {
+  color: #ff1d1d;
+  text-decoration: none;
+}
+
+.exerciseHeading {
+  color: white;
+}
